@@ -9,7 +9,7 @@ class RefreshIndicatorScreen extends StatefulWidget {
 }
 
 class _RefreshIndicatorScreenState extends State<RefreshIndicatorScreen> {
-  List<String> _items = List.generate(20, (index) => 'ITEM $index');
+  List<String> _items = List.generate(20, (index) => 'Item $index');
 
   final GlobalKey<RefreshIndicatorState> _refreshIndicatorKey = GlobalKey<RefreshIndicatorState>();
 
